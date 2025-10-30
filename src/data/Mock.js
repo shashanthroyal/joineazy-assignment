@@ -1,9 +1,9 @@
 export const users = [
     {id : 1, name: 'Mahesh', role: 'student'},
     {id : 2, name: 'Ramesh', role: 'student'},
-    {id : 3, name: 'Suresh', role: 'admin'},
-    {id : 4, name: 'Naresh', role: 'student'},
-    {id : 5, name: 'Rajesh', role: 'admin'}
+    {id : 3, name: 'Suresh', role: 'student'},
+    {id : 4, name: 'Srikanth', role: 'admin'},
+    {id : 5, name: 'Narasimha', role: 'admin'}
 
 ]
 
@@ -13,8 +13,8 @@ export const assignments = [
         title: 'Math Assignment',
         description: 'Algebra and Geometry',
         dueDate: '2023-09-15',
-        createdBy: 3, 
-        assignedTo: [1, 2, 4] 
+        createdBy: 4, 
+        assignedTo: [1, 2, 3] 
     },
     {
         id: 2,
@@ -22,15 +22,15 @@ export const assignments = [
         description: 'Physics and Chemistry',
         dueDate: '2023-09-20',
         createdBy: 5, 
-        assignedTo: [1, 4] 
+        assignedTo: [1, 3] 
     },
     {
         id: 3,
         title: 'History Assignment',
         description: 'World War II',
         dueDate: '2023-09-25',
-        createdBy: 3, 
-        assignedTo: [2, 4] 
+        createdBy: 4, 
+        assignedTo: [2, 3] 
     },
     {
         id: 4,
@@ -45,7 +45,7 @@ export const assignments = [
         title: 'Computer Science Assignment',
         description: 'Data Structures',
         dueDate: '2023-10-05',
-        createdBy: 3, 
-        assignedTo: [1, 2, 4] 
+        createdBy: 4, 
+        assignedTo: [1, 2, 3] 
     }
 ]
