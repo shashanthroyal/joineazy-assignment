@@ -1,7 +1,7 @@
 import React from "react";
 import ProgressBar from "../common/ProgressBar";
 
-function AdminDashboard({ user, assignments, submissions, users }) {
+function AdminDashboard({ user, assignments, submissions}) {
   const myAssignments = assignments.filter(a => a.createdBy === user.id);
 
   return (

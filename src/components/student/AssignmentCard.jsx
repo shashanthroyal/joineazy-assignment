@@ -10,9 +10,6 @@ function AssignmentCard({ assignment, studentId, submission, onConfirmSubmission
       <h3 className="font-semibold text-lg">{assignment.title}</h3>
       <p className="text-sm text-gray-600 mb-2">{assignment.description}</p>
       <p className="text-xs text-gray-500 mb-1">Due: {assignment.dueDate}</p>
-      <a href={assignment.driveLink} className="text-blue-600 text-xs" target="_blank">
-        Drive Link
-      </a>
 
       <div className="flex justify-between items-center mt-3">
         <p className="text-xs text-gray-500">{status}</p>
