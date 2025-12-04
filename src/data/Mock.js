@@ -1,9 +1,9 @@
 export const users = [
-    {id : 1, name: 'Mahesh', role: 'student'},
-    {id : 2, name: 'Ramesh', role: 'student'},
-    {id : 3, name: 'Suresh', role: 'student'},
-    {id : 4, name: 'Srikanth', role: 'admin'},
-    {id : 5, name: 'Narasimha', role: 'admin'}
+    {id : 1, name: 'Mahesh', role: 'Student'},
+    {id : 2, name: 'Ramesh', role: 'Student'},
+    {id : 3, name: 'Suresh', role: 'Student'},
+    {id : 4, name: 'Srikanth', role: 'Proffessor'},
+    {id : 5, name: 'Narasimha', role: 'Proffessor'},
 
 ]
 

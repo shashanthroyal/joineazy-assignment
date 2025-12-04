@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="p-4 bg-blue-600 shadow flex justify-between items-center">
-        <h1 className=" text-white font-bold text-2xl">Joineazy Assignment Dashboard</h1>
+        <h1 className=" text-white font-bold text-2xl ">Assignment Dashboard</h1>
         <select value={userId} onChange={e => setUserId(Number(e.target.value))} className="border w-56 p-2 rounded">
           {users.map(u => (
             <option key={u.id} value={u.id}>{u.name} ({u.role})</option>
